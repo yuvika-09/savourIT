@@ -1,0 +1,56 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    color: beige;
+    font-size: 25px;
+  }
+  
+.background {
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.content {
+    background-color: rgba(58, 38, 38, 0.8); 
+    padding: 30px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    background-color: rgba(75, 47, 47, 0.24);;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: block; 
+    margin: 0 auto; 
+    padding: 10px 20px;
+    width: 50%;
+}
+  
